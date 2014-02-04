@@ -4,10 +4,13 @@
     <string name="app_name">Droidcon IT 2014 Symmetric Demo</string>
     <string name="action_discard">Clear</string>
     <string name="action_bar_title">Symmetric Demo</string>
-    <string name="action_bar_subtitle">Step 1</string>
-    
+    <string name="action_bar_subtitle">Step 2</string>
     <string name="hello_world">Hello world!</string>
     <string name="show_providers">Show Providers</string>
     <string name="show_sc_services">Show SC Services</string>
+    <string name="encrypt_data">Encrypt</string>
+    <string name="decrypt_data">Decrypt</string>
+    <string name="in_data">Input:</string>
+    <string name="out_data">Output:</string>
 
 </resources>
