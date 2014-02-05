@@ -14,7 +14,7 @@ import javax.crypto.NoSuchPaddingException;
 import javax.crypto.spec.IvParameterSpec;
 import javax.crypto.spec.SecretKeySpec;
 
-import com.mseclab.droidconit2014.symmetricdemostep1.R;
+import com.mseclab.droidconit2014.symmetricdemostep2.R;
 
 import android.os.Bundle;
 import android.app.Activity;

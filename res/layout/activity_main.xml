@@ -6,40 +6,49 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     tools:context=".MainActivity" >
 
-    <LinearLayout
+    <RelativeLayout
         android:id="@+id/buttonBar"
+        android:focusableInTouchMode="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:gravity="center"
-        android:padding="10dp"
-        android:orientation="vertical" >
+        android:padding="10dp">
 
         <Button
+            android:id="@+id/showProvidersButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
             android:onClick="onShowProvidersClick"
             android:text="@string/show_providers" />
         
         <Button
+            android:id="@+id/showSCServicesButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/showProvidersButton"
             android:onClick="onShowSCServicesClick"
             android:text="@string/show_sc_services" />
         
         <Button
+            android:id="@+id/encryptButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignRight="@id/showProvidersButton"
+            android:layout_below="@id/showSCServicesButton"
             android:onClick="onEncryptClick"
             android:text="@string/encrypt_data" />
         
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_below="@id/showSCServicesButton"
+            android:layout_toRightOf="@id/encryptButton"
             android:onClick="onDecryptClick"
             android:text="@string/decrypt_data" />
         
-    </LinearLayout>
+    </RelativeLayout>
 
      <EditText
         android:id="@+id/inDataText"
