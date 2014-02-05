@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Droidcon IT 2014 Symmetric Demo</string>
+    <string name="app_name">SD Step 2</string>
     <string name="action_discard">Clear</string>
     <string name="action_bar_title">Symmetric Demo</string>
     <string name="action_bar_subtitle">Step 2</string>
